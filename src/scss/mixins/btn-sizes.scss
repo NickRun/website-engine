@@ -1,0 +1,22 @@
+// --------------------------------------------------
+// Line Size Mixin
+// --------------------------------------------------
+
+@mixin btn-sm() {
+	padding:$padding-sm;
+	line-height:$line-height-sm;
+	font-size:$font-sm;
+}
+
+@mixin btn-md() {
+	padding:$padding-md;
+	line-height:$line-height-md;
+	font-size:$font-md;
+}
+
+@mixin btn-lg() {
+	padding:$padding-lg;
+	line-height:$line-height-lg;
+	font-size:$font-lg;
+}
+

@@ -1,0 +1,22 @@
+*, *:before, *:after {
+	margin: 0;
+	padding: 0;
+  	box-sizing: inherit;
+}
+
+html, body{
+	height:100%;
+	overflow-x:hidden;
+}
+
+html {
+	box-sizing: border-box;
+	font-family:$sans;
+	color:$text-color;
+}
+
+img {
+	width: auto;
+	max-width: 100%;
+	height: auto; 
+}

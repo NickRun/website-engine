@@ -1,0 +1,44 @@
+@import '../variables';
+@import '../mixins/media-queries';
+
+.article__header {
+  background-color:darken($offwhite, 5%);
+}
+
+.article__title {
+  width:100%;
+  padding:0;
+  font-weight:normal;
+  text-align:center;
+  font-size:2rem;
+  @include mq(md) {
+    font-size:2.5rem;
+  }
+  @include mq(lg) {
+    line-height:2.85rem;
+  }
+}
+
+.article__meta {
+  display:inline-block;
+  border-bottom:1px solid darken($offwhite, 15%);
+  padding-bottom:10px;
+  font-size:.8rem;
+}
+
+.article__meta__date {
+  font-size:1rem;
+  font-weight:bold;
+  padding-left:5px;
+  color:$dark-blue;
+}
+
+.article__content {
+  font-size:1.2rem;
+  @include mq(lg) {
+    background-color:$white;
+    border-radius:5px;
+    border:1px solid darken($offwhite, 15%);
+    margin-top:$gutter * 2
+  }
+}

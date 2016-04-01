@@ -1,0 +1,59 @@
+// --------------------------------------------------
+// Variables
+// --------------------------------------------------
+
+// Breakpoints
+
+$xs: 480px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
+
+// Grid
+
+$grid-columns: 12;
+$grid-max-width: 960px;
+
+// Element widths
+
+$sidebar-width: 300px;
+
+// Global Colors
+
+$white: #FFF;
+$black: #000;
+
+$offwhite: #f4f2ef;
+
+$blue: #257cab;
+$dark-blue: #20688f;
+$darker-blue: #123b51;
+$light-blue: #4894bf;
+
+$primary: $blue;
+
+// Button Colors
+
+$btn-border-color: $white;
+$btn-color: $white;
+$btn-bg-color: $dark-blue;
+
+// Spacing 
+
+$btn-spacing: 10px;
+$gutter:20px;
+
+// Typography
+
+$sans: 'Open Sans'; 
+$link-color: $primary; 
+$text-color: #333;
+$font-sm: 13px;
+$font-md: 15px;
+$font-lg: 17px;
+$padding-sm:0 18px;
+$padding-md:0 26px;
+$padding-lg:0 34px;
+$line-height-sm:22px;
+$line-height-md:30px;
+$line-height-lg:38px;

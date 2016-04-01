@@ -1,0 +1,17 @@
+* {
+	font-family: $sans, sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:$link-color;
+	border-bottom:1px solid $black;
+	//
+	&:hover {
+		border-bottom:0;
+	}
+}
+
+h1, h2, h3, h4, h5 {
+	margin-top:0;
+}
