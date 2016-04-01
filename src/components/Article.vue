@@ -12,7 +12,7 @@ article.article
         div.article__meta.
           Published On #[span(class= 'article__meta__date') {{ sharedState.activePost.publish_date }}]
     div.row
-      div.g-col-8.g-push-2.article__content= "{{{ sharedState.activePost.body }}}"
+      div.g-col-10.g-push-1.article__content= "{{{ sharedState.activePost.body }}}"
 </template>
 
 <script>
