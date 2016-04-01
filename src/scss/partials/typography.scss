@@ -1,3 +1,6 @@
+@import '../variables';
+@import '../mixins/media-queries';
+
 * {
 	font-family: $sans, sans-serif;
 }
@@ -5,13 +8,20 @@
 a {
 	text-decoration:none;
 	color:$link-color;
-	border-bottom:1px solid $black;
+	border-bottom:1px solid lighten($link-color, 20%);
+	transition:border-bottom .2s;
 	//
 	&:hover {
 		border-bottom:0;
+		border-bottom:2px solid $link-color;
 	}
 }
 
 h1, h2, h3, h4, h5 {
-	margin-top:0;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+p {
+	margin-bottom:1rem;
 }

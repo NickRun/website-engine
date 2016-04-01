@@ -1,6 +1,5 @@
 var store = {
   state: {
-    activePostTitle: '',
     activePostSrc: '',
     activePost: {},
     siteMeta: {},

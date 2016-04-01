@@ -82,6 +82,9 @@ export default {
     $route: function () {
       this.dataLoading = true // initiate loading animation
       this.startTransitionAnimation()
+    },
+    'sharedState.activePost.title': function () {
+      document.title = 'Nick.Run: ' + this.sharedState.activePost.title
     }
   }
 }

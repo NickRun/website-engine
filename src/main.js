@@ -15,8 +15,8 @@ var router = new VueRouter({
 })
 
 router.redirect({
-  '/': '/about/nick-scipione-public-notebook',
-  '*': '/about/nick-scipione-public-notebook'
+  '/': '/about/about-this-website',
+  '*': '/about/about-this-website'
 })
 
 router.map({

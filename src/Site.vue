@@ -19,6 +19,7 @@ export default {
 @import "./scss/partials/typography";
 @import "./scss/partials/buttons";
 @import "./scss/partials/forms";
+@import "./scss/partials/lists";
 @import "./scss/partials/canvas";
 @import "./scss/partials/grid";
 </style>
