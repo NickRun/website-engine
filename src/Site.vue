@@ -21,7 +21,6 @@ export default {
 @import "./scss/partials/code";
 @import "./scss/partials/tables";
 @import "./scss/partials/forms";
-@import "./scss/partials/lists";
 @import "./scss/partials/canvas";
 @import "./scss/partials/grid";
 </style>

@@ -31,7 +31,7 @@ aside.sidebar
   div.sidebar__contact-card.hide.show-sm
     div.sidebar__contact-card__destination
       i.fa.fa-envelope
-      span email@nick.run
+      span.email(data-emluser= "liame", data-emldomain= "nur.kcin")
 </template>
 
 <script>

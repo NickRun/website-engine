@@ -1,6 +1,8 @@
 @import '../variables';
 @import '../mixins/media-queries';
 
+$dark-brown: darken($offwhite, 65%);
+
 .article {
   padding-bottom: $gutter;
   overflow-x:hidden;
@@ -9,6 +11,8 @@
 .article__title {
   width:100%;
   padding:0;
+  margin:20px 0 0 0;
+  //
   font-weight:normal;
   text-align:center;
   font-size:2rem;
@@ -18,6 +22,7 @@
   }
   //
   @include mq(lg) {
+    color:$dark-brown;
     line-height:2.85rem;
   }
 }
@@ -28,7 +33,7 @@
   margin:0 auto;
   text-align:center;
   font-size:.8rem;
-  color:darken($offwhite, 65%);
+  color:$dark-brown;
 }
 
 .article__meta__date {
@@ -57,5 +62,19 @@
   //
   h3:first-of-type {
     margin-top:0;
+  }
+  //
+  ul {
+    padding-left:$gutter;
+    margin-bottom:1rem;
+    //
+    li {
+      padding:.2rem 0;
+      list-style-type:square;
+    }
+  }
+  //
+  p {
+    margin-bottom:1rem;
   }
 }
