@@ -35,15 +35,4 @@ export default {
 <style lang= "scss">
 @import '../scss/variables';
 @import '../scss/partials/header';
-
-.staggered-transition {
-    transition: all .5s ease;
-    overflow: hidden;
-    margin: 0;
-    height: 60px;
-}
-.staggered-enter, .staggered-leave {
-    opacity: 0;
-    height: 0;
-}
 </style>

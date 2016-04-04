@@ -1,0 +1,32 @@
+.responsive-table {
+	overflow-x:auto;
+	-webkit-overflow-scrolling: touch;
+	width:100%;
+}
+
+table {
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:13px;
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: 1px solid $light-grey;
+	//
+	th, td {
+		padding:$gutter / 2;
+		margin:0;
+	}
+	//
+	thead {
+		background-color: $light-grey;
+	}
+	//
+	tbody {
+		//
+		tr:nth-child(odd) {
+		    background: $lighter-grey;
+		}
+	}
+	//
+}

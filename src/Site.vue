@@ -18,6 +18,8 @@ export default {
 @import "./scss/partials/global";
 @import "./scss/partials/typography";
 @import "./scss/partials/buttons";
+@import "./scss/partials/code";
+@import "./scss/partials/tables";
 @import "./scss/partials/forms";
 @import "./scss/partials/lists";
 @import "./scss/partials/canvas";

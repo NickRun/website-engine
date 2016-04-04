@@ -1,6 +1,11 @@
 @import '../variables';
 @import '../mixins/media-queries';
 
+.article {
+  padding-bottom: $gutter;
+  overflow-x:hidden;
+}
+
 .article__title {
   width:100%;
   padding:0;
@@ -22,9 +27,6 @@
   max-width:300px;
   margin:0 auto;
   text-align:center;
-  background-color: darken($offwhite, 15%);
-  border-radius:3px;
-  padding:10px;
   font-size:.8rem;
   color:darken($offwhite, 65%);
 }
@@ -37,7 +39,7 @@
 }
 
 .article__content {
-  font-size:1.2rem;
+  font-size:1rem;
   //
   @include mq(lg) {
     background-color:$white;
@@ -46,7 +48,14 @@
     margin-top:$gutter * 2
   }
   //
+  h3 {
+    text-transform: uppercase;
+    color: $white;
+    padding:($gutter / 2) $gutter;
+    background-color: $dark-blue;
+  }
+  //
   h3:first-of-type {
-    padding-top:0;
+    margin-top:0;
   }
 }

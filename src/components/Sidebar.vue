@@ -19,9 +19,7 @@ aside.sidebar
         template(v-for= "post in sharedState.siteMeta.posts")
           li(
             v-if= "isVisible(post.post_type)"
-            transition= "staggered"
-            stagger="100"
-            v-bind:class= "{ 'active': post.active }")
+            v-bind:class= "{ 'active': post.active, 'pt-about': post.post_type === 'about' }")
             i.fa.fa-square
             a(v-link="{ name: 'about', params: { postSrc: post.src }}"
               v-if= "post.post_type === 'about'"
@@ -59,15 +57,4 @@ export default {
 @import '../scss/mixins/clearfix';
 @import '../scss/mixins/media-queries';
 @import '../scss/partials/sidebar';
-
-.staggered-transition {
-    transition: all .5s ease;
-    overflow: hidden;
-    margin: 0;
-    height: 60px;
-}
-.staggered-enter, .staggered-leave {
-    opacity: 0;
-    height: 0;
-}
 </style>

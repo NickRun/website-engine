@@ -4,6 +4,9 @@ import VueResource from 'vue-resource'
 import Body from './components/Body.vue'
 import Site from './Site.vue'
 import Article from './components/Article.vue'
+// import hljs from 'hightlight.js'
+
+// hljs.initHighlightingOnLoad()
 
 Vue.use(VueRouter)
 Vue.use(VueResource)

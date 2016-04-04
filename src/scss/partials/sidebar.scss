@@ -45,6 +45,10 @@
 	//
 	a {
 		border-bottom:0;
+		//
+		&:hover {
+			border-bottom:0;
+		}
 	}
 }
 
@@ -89,7 +93,7 @@
 		//
 		li {
 			position:relative;
-			padding:0 0 0 22px;
+			padding:0 0 $gutter 22px;
 			margin:0 0 0 0;
 			@include clearfix();
 			//

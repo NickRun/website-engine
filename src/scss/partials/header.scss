@@ -29,7 +29,7 @@
 
 .site-header__label {
 	margin: $gutter;
-	float:right;
+	float: right;
 	max-width:175px;
 	width:175px;
 	transition: 1s width ease-in;
@@ -37,5 +37,9 @@
 	a {
 		display:block;
 		border-bottom:0;
+		//
+		&:hover {
+			border-bottom:0;
+		}
 	}
 }

@@ -1,0 +1,10 @@
+pre {
+	background-color: $lighter-grey;
+	border:1px solid $light-grey;
+	padding:$gutter $gutter 0 $gutter;
+	overflow-x:auto;
+	//
+	code {
+		font-size:13px!important;
+	}
+}
