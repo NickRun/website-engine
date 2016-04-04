@@ -3,6 +3,7 @@
 	left:0;
 	margin-left:0;
 	background-color:$white;
+	transition:left 1s ease;
 	//
 	@include mq(lg) {
 		background-color:$offwhite;
@@ -11,7 +12,6 @@
 	width:auto;
 	height:100%;
 	overflow:auto;
-	transition: left 1s;
 	//
 	@include mq(lg) {
 		margin-left:$sidebar-width;
