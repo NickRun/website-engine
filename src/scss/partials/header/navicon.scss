@@ -1,0 +1,11 @@
+.navicon {
+	margin: $gutter;
+	float:left;
+	font-size:40px;
+	cursor: pointer;
+	color: $white;
+	//
+	&:hover {
+		color: $white;
+	}
+}

@@ -28,6 +28,7 @@ $light-grey: lighten(grey, 25%);
 $lighter-grey: lighten(grey, 45%);
 
 $offwhite: #f4f2ef;
+$dark-brown: darken($offwhite, 65%);
 
 $red: #dc484c;
 
@@ -35,6 +36,8 @@ $blue: #257cab;
 $dark-blue: #20688f;
 $darker-blue: #123b51;
 $light-blue: #4894bf;
+
+$highlighter-yellow: #FFF056;
 
 $primary: $blue;
 

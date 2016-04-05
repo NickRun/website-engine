@@ -1,0 +1,8 @@
+@import 'article-title';
+@import 'article-meta';
+@import 'article-content';
+
+.article {
+  padding-bottom: $gutter;
+  overflow-x:hidden;
+}

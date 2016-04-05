@@ -56,5 +56,5 @@ export default {
 @import '../scss/mixins/btn-sizes';
 @import '../scss/mixins/clearfix';
 @import '../scss/mixins/media-queries';
-@import '../scss/partials/sidebar';
+@import '../scss/partials/sidebar/sidebar';
 </style>

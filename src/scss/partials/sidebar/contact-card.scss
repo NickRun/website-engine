@@ -1,0 +1,20 @@
+.sidebar__contact-card {
+	position:absolute;
+	bottom:0;
+	width:$sidebar-width;
+	background-color:$blue;
+	border-top:1px solid $dark-blue;
+	padding:$gutter;
+	color:$white;
+}
+
+.sidebar__contact-card__destination {
+	//
+	i {
+		margin-right:5px;
+	}
+	//
+	span {
+		font-size:15px;
+	}
+}

@@ -16,15 +16,3 @@ html {
 	font-family:$sans;
 	color:$text-color;
 }
-
-img {
-	width: auto;
-	max-width: 100%;
-	height: auto; 
-}
-
-.email:before {
-    content: attr(data-emldomain) "\0040" attr(data-emluser);
-    unicode-bidi: bidi-override;
-    direction: rtl;
-}

@@ -1,0 +1,18 @@
+.site-brand {
+	background-color:$dark-blue;
+}
+
+.sidebar__label {
+	display:inline-block;
+	padding:0;
+	margin:0;
+	max-width:180px;
+	//
+	a {
+		border-bottom:0;
+		//
+		&:hover {
+			border-bottom:0;
+		}
+	}
+}

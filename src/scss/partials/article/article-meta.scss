@@ -1,0 +1,19 @@
+.article__meta {
+  display:block;
+  //
+  @include mq(md) {
+    max-width:300px;
+    margin:0 auto;
+    text-align:center;
+  }
+  //
+  font-size:.8rem;
+  color:$dark-brown;
+}
+
+.article__meta__date {
+  font-size:1rem;
+  font-weight:bold;
+  padding-left:5px;
+  color:$blue;
+}

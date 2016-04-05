@@ -1,0 +1,44 @@
+.site-nav__post-list {
+	padding-top:($gutter*2);
+	//
+	ul {
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		//
+		li {
+			position:relative;
+			padding:0 0 $gutter 22px;
+			margin:0 0 0 0;
+			@include clearfix();
+			//
+			a {
+				display:block;
+				cursor:pointer;
+				border-bottom:0;
+			}
+			//
+			i {
+				position:absolute;
+				top:4px;
+				left:0;
+				color:$dark-blue;
+			}
+			//
+			&:hover i {
+				color:$light-blue;
+			}
+			//
+			&.active i {
+				transition: color .7s ease;
+				color:$white!important;
+			}
+			//
+			.site-nav__post-list__li__date {
+				cursor:default;
+				color:$darker-blue;
+				font-size:.8rem;
+			}
+		}
+	}
+}

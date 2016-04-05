@@ -34,5 +34,6 @@ export default {
 
 <style lang= "scss">
 @import '../scss/variables';
-@import '../scss/partials/header';
+@import '../scss/mixins/media-queries';
+@import '../scss/partials/header/header';
 </style>

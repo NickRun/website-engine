@@ -1,0 +1,24 @@
+.site-nav__type-select {
+	padding-top:$gutter;
+	//
+	i {
+		margin-right:10px;
+	}
+	//
+	.btn {
+		@include btn-md;
+		color:lighten($blue,50%);
+		text-transform:capitalize;
+		//
+		&:hover {
+			color:$white;
+			background-color:$darker-blue;
+		}
+		//
+		&.active {
+			color:$blue;
+			font-weight:bold;
+			background-color:$white!important;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+@import 'label';
+@import 'type-select';
+@import 'post-list';
+@import 'contact-card';
+
+.sidebar {
+	position:absolute;
+	width:$sidebar-width;
+	height:100%;
+	overflow:hidden;
+	background-color:$blue;
+	z-index:0;
+	//
+	a {
+		color:$white;
+		text-decoration:none;
+	}
+}
+
+.sidebar__control {
+	@include clearfix();
+	padding:$gutter;
+	color:$white;
+}

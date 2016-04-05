@@ -31,5 +31,13 @@ export default {
 </script>
 
 <style lang= "scss">
-@import '../scss/partials/article';
+@import '../scss/variables';
+@import '../scss/mixins/btn-sizes';
+@import '../scss/mixins/clearfix';
+@import '../scss/mixins/media-queries';
+@import '../scss/partials/article/article';
+@import "../scss/partials/code";
+@import "../scss/utilities/responsive-table";
+@import "../scss/utilities/no-top-margin";
+@import "../scss/utilities/highlight";
 </style>

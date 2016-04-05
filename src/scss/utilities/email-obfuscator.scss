@@ -1,0 +1,5 @@
+.email:before {
+    content: attr(data-emldomain) "\0040" attr(data-emluser);
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
