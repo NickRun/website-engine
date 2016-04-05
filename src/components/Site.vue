@@ -19,10 +19,11 @@ export default {
 
 @import "../scss/utilities/visibility";
 @import "../scss/utilities/email-obfuscator";
+@import "../scss/utilities/bold";
 
 @import "../scss/partials/global";
+@import "../scss/partials/headers";
 @import "../scss/partials/images";
-@import "../scss/partials/typography";
 @import "../scss/partials/buttons";
 @import "../scss/partials/canvas";
 @import "../scss/partials/grid";

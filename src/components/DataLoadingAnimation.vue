@@ -22,7 +22,11 @@ export default {
 @import '../scss/mixins/media-queries';
 
 .overlay.loading {
-  background-color: $offwhite;
+  background-color: $white;
+  //
+  @include mq(lg) {
+    background-color: $offwhite;
+  }
 }
 
 .fadeoverlay-transition {
@@ -31,7 +35,6 @@ export default {
 }
 .fadeoverlay-enter, .fadeoverlay-leave {
     transition: all 1s ease-in-out;
-    height: 0;
     opacity: 0;
 }
 
