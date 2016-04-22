@@ -9,10 +9,14 @@ main.on-canvas(
 </template>
 
 <script>
+// Global Store
+import store from '../store'
+// Components
 import Sidebar from './Sidebar.vue'
 import SiteHeader from './SiteHeader.vue'
 import DataLoadingAnimation from './DataLoadingAnimation.vue'
-import store from '../store'
+// Methods
+import toggleMenu from '../methods/toggleMenu'
 
 export default {
   components: {
@@ -34,19 +38,13 @@ export default {
     })
   },
   methods: {
+    toggleMenu: toggleMenu,
     startTransitionAnimation: function () {
       this.sharedState.dataLoading = true // initiate loading animation
       var self = this
       setTimeout(function () {
         self.getPost() // retrieve post data after .5 sec
       }, 500)
-    },
-    toggleMenu: function () {
-      if (this.sharedState.revealed === true) {
-        this.sharedState.revealed = false
-      } else {
-        this.sharedState.revealed = true
-      }
     },
     getPost: function () {
       // GET request

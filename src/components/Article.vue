@@ -23,9 +23,6 @@ export default {
     return {
       sharedState: store.state
     }
-  },
-  ready: function () {
-
   }
 }
 </script>

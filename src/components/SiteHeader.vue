@@ -8,8 +8,12 @@ div.site-header
 </template>
 
 <script>
+// Global Store
 import store from '../store'
+// Components
 import Logo from './Logo.vue'
+// Methods
+import toggleMenu from '../methods/toggleMenu'
 
 export default {
   components: {
@@ -21,13 +25,7 @@ export default {
     }
   },
   methods: {
-    toggleMenu: function () {
-      if (this.sharedState.revealed === true) {
-        this.sharedState.revealed = false
-      } else {
-        this.sharedState.revealed = true
-      }
-    }
+    toggleMenu
   }
 }
 </script>
