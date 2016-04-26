@@ -24,6 +24,7 @@
     color: $white;
     padding:($gutter / 2) $gutter;
     background-color: $dark-blue;
+    border:1px solid darken($dark-blue, 5%);
     font-family: $sans;
   }
   //

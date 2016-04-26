@@ -17,6 +17,8 @@ import SiteHeader from './SiteHeader.vue'
 import DataLoadingAnimation from './DataLoadingAnimation.vue'
 // Methods
 import toggleMenu from '../methods/toggleMenu'
+// Vendor
+import $ from 'jquery'
 
 export default {
   components: {
@@ -40,6 +42,7 @@ export default {
   methods: {
     toggleMenu: toggleMenu,
     startTransitionAnimation: function () {
+      $('.on-canvas').animate({ scrollTop: 0 })
       this.sharedState.dataLoading = true // initiate loading animation
       var self = this
       setTimeout(function () {
