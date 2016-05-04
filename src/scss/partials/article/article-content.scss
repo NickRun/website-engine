@@ -1,6 +1,6 @@
 .article__content {
   font-size:1.3rem;
-  font-family:georgia,"times new roman",times,serif;
+  font-family:$sans;
   //
   @include mq(lg) {
     background-color:$white;
