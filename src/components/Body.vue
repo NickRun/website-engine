@@ -17,6 +17,7 @@ import SiteHeader from './SiteHeader.vue'
 import DataLoadingAnimation from './DataLoadingAnimation.vue'
 // Methods
 import toggleMenu from '../methods/toggleMenu'
+import setActivePostType from '../methods/setActivePostType'
 // Vendor
 import $ from 'jquery'
 
@@ -59,7 +60,7 @@ export default {
         store.state.activePost = response.data
         var activePostType = store.state.activePost.post_type
         store.state.siteMeta.active_post_type = activePostType
-        store.methods.setActivePostType(activePostType)
+        setActivePostType(activePostType)
         setTimeout(function () {
           self.sharedState.dataLoading = false // ends animation after .4 seconds
         }, 400)
